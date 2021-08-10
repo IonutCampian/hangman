@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>HANGMAN</title>
+</head>
+<body>  
+    <center>
+        <h1 id = "head", style="color: blue;">HANGMAN</h1>
+        <button onclick="startTheGame()"id = "start">START</button>
+        <input id = "word" placeholder="your word here">
+         <p id = "thisAreYourLives">Lives</p>
+        <button id = "livesToGo", class = "livesInGame">5</button>
+    </center>
+    <center>
+        <input id = "letter" placeholder="add your letter here">
+        <button id = "check", onclick="tryLetter()">try letter!</button>
+        <p id = "theAnswer"></p>
+    </center>
+    <script src = "index.js">
+    </script>
+</body>
+</html>
