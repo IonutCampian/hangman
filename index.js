@@ -1,8 +1,8 @@
 document.getElementById("letter").style.visibility = 'hidden';
 document.getElementById("check").style.visibility = 'hidden';
-var lives = 5;
 document.getElementById("livesToGo").style.visibility = 'hidden';
 document.getElementById("thisAreYourLives").style.visibility = 'hidden';
+var lives = 5;
 function startTheGame() {
     document.getElementById("start").style.visibility='hidden';
     document.getElementById("word").style.visibility='hidden';
